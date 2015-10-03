@@ -1,0 +1,17 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04_PLinq_intro", "04_PLinq_intro\04_PLinq_intro.csproj", "{C2F44CFC-63CC-42F0-89EE-5FA6188F645C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2F44CFC-63CC-42F0-89EE-5FA6188F645C}.Debug|x86.ActiveCfg = Debug|x86
+		{C2F44CFC-63CC-42F0-89EE-5FA6188F645C}.Debug|x86.Build.0 = Debug|x86
+		{C2F44CFC-63CC-42F0-89EE-5FA6188F645C}.Release|x86.ActiveCfg = Release|x86
+		{C2F44CFC-63CC-42F0-89EE-5FA6188F645C}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+EndGlobal

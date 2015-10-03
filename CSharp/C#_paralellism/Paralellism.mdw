@@ -1,0 +1,25 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>02_exception/02_exception.sln</Item>
+    <Item>02_lambda/02_lambda.sln</Item>
+    <Item>02_exception_02/02_exception_02.sln</Item>
+    <Item>02_exception_03/02_exception_03.sln</Item>
+    <Item>sort/sort.sln</Item>
+    <Item>02_Cancelation/02_Cancelation.sln</Item>
+    <Item>02_continue_when_all/02_continue_when_all.sln</Item>
+    <Item>02_OuterInner/02_OuterInner.sln</Item>
+    <Item>02_OnlyOnFaulted/02_OnlyOnFaulted.sln</Item>
+    <Item>02_ParentChild/02_ParentChild.sln</Item>
+    <Item>03_Operations/03_Operations.sln</Item>
+    <Item>03_PriceIncrease/03_PriceIncrease.sln</Item>
+    <Item>03_ParallelLoopBreak/03_ParallelLoopBreak.sln</Item>
+    <Item>03_Count/03_Count.sln</Item>
+    <Item>03_factorial/03_factorial.sln</Item>
+    <Item>03_lectters/03_lectters.sln</Item>
+    <Item>04_PLinq_intro/04_PLinq_intro.sln</Item>
+    <Item>04_Performance/04_Performance.sln</Item>
+    <Item>05_SpinWait/05_SpinWait.sln</Item>
+    <Item>05_ConcurrentStack/05_ConcurrentStack.sln</Item>
+    <Item>05_ConcurrentDictionary/05_ConcurrentDictionary.sln</Item>
+  </Items>
+</WorkspaceItem>

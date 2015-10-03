@@ -1,0 +1,10 @@
+/Users/nbr/Projects/02_exception_02/02_exception_02/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/nbr/Projects/02_exception_02/02_exception_02/bin/Debug/02_exception_02.exe.mdb
+/Users/nbr/Projects/02_exception_02/02_exception_02/bin/Debug/02_exception_02.exe
+/Users/nbr/Projects/02_exception_02/02_exception_02/obj/x86/Debug/02_exception_02.exe
+/Users/nbr/Projects/02_exception_02/02_exception_02/obj/x86/Debug/02_exception_02.exe.mdb
+/Users/nbr/Projects/Paralellism/02_exception_02/02_exception_02/obj/x86/Debug/.NETFramework,Version=v4.0.AssemblyAttribute.cs
+/Users/nbr/Projects/Paralellism/02_exception_02/02_exception_02/bin/Debug/02_exception_02.exe.mdb
+/Users/nbr/Projects/Paralellism/02_exception_02/02_exception_02/bin/Debug/02_exception_02.exe
+/Users/nbr/Projects/Paralellism/02_exception_02/02_exception_02/obj/x86/Debug/02_exception_02.exe
+/Users/nbr/Projects/Paralellism/02_exception_02/02_exception_02/obj/x86/Debug/02_exception_02.exe.mdb

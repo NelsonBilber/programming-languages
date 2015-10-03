@@ -1,0 +1,21 @@
+<WorkspaceItem ctype="Workspace">
+  <Items>
+    <Item>03_proprieties/03_proprieties.sln</Item>
+    <Item>04_access_modifiers/04_access_modifiers.sln</Item>
+    <Item>05_static/05_static.sln</Item>
+    <Item>06_inheritance/06_inheritance.sln</Item>
+    <Item>07_abstract/07_abstract.sln</Item>
+    <Item>01_value_type/01_value_type.sln</Item>
+    <Item>02_reference_type/02_reference_type.sln</Item>
+    <Item>08_Interface/08_Interface.sln</Item>
+    <Item>09_visibility_by_default/09_visibility_by_default.sln</Item>
+    <Item>10_boxing_unboxing_as_is/10_boxing_unboxing_as_is.sln</Item>
+    <Item>11_generics/11_generics.sln</Item>
+    <Item>12_delegates/12_delegates.sln</Item>
+    <Item>13_events/13_events.sln</Item>
+    <Item>14_collections/14_collections.sln</Item>
+    <Item>15_operator_overloading/15_operator_overloading.sln</Item>
+    <Item>16_iterators/16_iterators.sln</Item>
+    <Item>17_yield/17_yield.sln</Item>
+  </Items>
+</WorkspaceItem>

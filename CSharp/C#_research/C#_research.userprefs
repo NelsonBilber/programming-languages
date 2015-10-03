@@ -1,0 +1,15 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="10_boxing_unboxing_as_is/10_boxing_unboxing_as_is/Program.cs">
+    <Files>
+      <File FileName="14_collections/14_collections/Program.cs" Line="1" Column="1" />
+      <File FileName="03_proprieties/03_proprieties/Program.cs" Line="1" Column="1" />
+      <File FileName="05_static/05_static/Program.cs" Line="1" Column="1" />
+      <File FileName="10_boxing_unboxing_as_is/10_boxing_unboxing_as_is/Program.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
