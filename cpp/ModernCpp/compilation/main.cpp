@@ -21,6 +21,23 @@ auto compose(T1 t1, T2 t2) -> decltype(t1 + t2)
 }
 
 
+//===================================================
+// Override and final
+//===================================================
+
+class B
+{
+public:
+    virtual void f(int) {std::cout << "B::f" << std::endl;}
+};
+
+class D : public B
+{
+public:
+    virtual void f(int) override final {std::cout << "D::f" << std::endl;}
+};
+
+
 int main(int argc, const char * argv[]) {
     
     //===================================================
@@ -95,8 +112,17 @@ int main(int argc, const char * argv[]) {
         cout << "" << e << endl;
     }
     
+    
     //===================================================
-    // Override and final
+    // Enume strongly-typed
+    //===================================================
+    
+    enum class Options {None, One, All};
+    Options o = Options::All;
+    
+    
+    //===================================================
+    // smart pointers
     //===================================================
     
     return 0;
