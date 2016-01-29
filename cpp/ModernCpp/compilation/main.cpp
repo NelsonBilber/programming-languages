@@ -3,6 +3,8 @@
 #include <iostream>
 #include <map>
 #include <vector>
+#include <memory>
+#include <functional>
 
 using namespace std;
 
@@ -18,6 +20,16 @@ template<typename T1, typename T2>
 auto compose(T1 t1, T2 t2) -> decltype(t1 + t2)
 {
     return t1+t2;
+}
+
+void bar(shared_ptr<int> p)
+{
+    ++(*p);
+}
+
+void foo(std::shared_ptr<int> p, int init)
+{
+    *p = init;
 }
 
 
@@ -37,6 +49,43 @@ public:
     virtual void f(int) override final {std::cout << "D::f" << std::endl;}
 };
 
+void foo(int* p)
+{
+    cout << *p << endl;
+}
+        
+template <typename Iterator>
+void bar(Iterator begin, Iterator end)
+{
+    std::for_each(begin, end, [](int n) {std::cout << n << std::endl;});
+    
+    auto is_odd = [](int n) {return n%2==1;};
+    auto pos = std::find_if(begin, end, is_odd);
+    if(pos != end)
+        std::cout << *pos << std::endl;
+}
+
+template <typename C>
+void foo(C c)
+{
+    bar(std::begin(c), std::end(c));
+}
+
+template <typename T, size_t N>
+void foo(T(&arr)[N])
+{
+    bar(std::begin(arr), std::end(arr));
+}
+
+
+template <typename T, size_t Size>
+class Vector
+{
+    static_assert(Size < 3, "Size is too small");
+    T _points[Size];
+};
+
+       	
 
 int main(int argc, const char * argv[]) {
     
@@ -124,6 +173,83 @@ int main(int argc, const char * argv[]) {
     //===================================================
     // smart pointers
     //===================================================
+    
+    unique_ptr<int> pointer1(new int(42));
+    unique_ptr<int> pointer2 = move(pointer1);
+    
+    if(pointer1)
+        foo(pointer1.get());
+    
+    if(pointer2)
+        foo(pointer2.get());
+    
+    
+    shared_ptr<int> pshared (new int(54));
+    shared_ptr<int> pshared2 = pshared;
+    
+    auto pshared3 = make_shared<int>(43);
+    
+    int into = 40;
+    foo(std::shared_ptr<int>(new int(42)), into);
+
+    
+    //weak pointers ...
+    auto p = std::make_shared<int>(42);
+    std::weak_ptr<int> wp = p;
+    
+    {
+        auto sp = wp.lock();
+        std::cout << *sp << std::endl;
+    }
+    
+    p.reset();
+    
+    if(wp.expired())
+        std::cout << "expired" << std::endl;
+    
+    
+    
+    //===================================================
+    // Lambdas
+    //===================================================
+   
+    
+    vector<int> vv;
+    vv.push_back(1);
+    vv.push_back(2);
+    vv.push_back(3);
+    
+   /*
+    auto is_odd = [](int n) {return n%2==1;};
+    auto pos = std::find_if(std::begin(v), std::end(v), is_odd);
+    if(pos != std::end(v))
+        std::cout << *pos << std::endl;
+    */
+    
+    std::function<int(int)> lfib = [&lfib](int n) {return n < 2 ? 1 : lfib(n-1) + lfib(n-2);};
+    
+  
+    
+    int arrw[] = {1,2,3};
+    foo(arrw);
+    
+    std::vector<int> vvv;
+    vvv.push_back(1);
+    vvv.push_back(2);
+    vvv.push_back(3);
+    foo(vvv);
+    
+    
+    //===================================================
+    // static_assert and type traits
+    //===================================================
+    
+    //Vector<int, 16> a1;
+    Vector<double, 2> a2;
+    
+    
+
+    
     
     return 0;
 }
