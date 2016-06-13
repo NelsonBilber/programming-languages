@@ -13,3 +13,6 @@ These repositories tries to coverage as many as possible feraures of C++ and C++
 * BitFlags and BitFields
 * Deep copy and Shallow Copy
 * ...
+
+
+ [ Modern C++ (C++11/14/17) ](https://github.com/NelsonBilber/programming-languages/tree/master/cpp/ModernCpp)
