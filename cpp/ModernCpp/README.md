@@ -13,7 +13,7 @@ Tutorials about C++11, C++14, C++17 ...
 | 3	| Non - static data members initializers | |
 | 4	| Variadic templates v0.9 - v1.0 | |
 | 5	| Initializer Lists | |
-| 6	| statuc_assert | |
+| 6	| static_assert | |
 | 7	| auto v0.9 - 1.0 | |
 | 8	| Trailing return types | |
 | 9	| Lambdas v0.9 - v1.0 | |
