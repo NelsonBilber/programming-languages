@@ -2,8 +2,9 @@
 
 Tutorials about C++11, C++14, C++17 ...
 
-[Table borrowed from Microsoft MSDN Support For C++11/14/17 Features (Modern C++) ] (https://msdn.microsoft.com/en-us/library/hh567368.aspx)
+[Tables borrowed from Microsoft MSDN Support For C++11/14/17 Features (Modern C++) ] (https://msdn.microsoft.com/en-us/library/hh567368.aspx)
 
+###C++11 Core Language Features Table
 
 | Nr        | C++ Core Features           | Check  |
 | ------------- |:-------------| :-----:|
@@ -47,4 +48,55 @@ Tutorials about C++11, C++14, C++17 ...
 | 37| override and final v0.8 - v1.0 | |
 | 38| Minimal GV support | |
 | 39| noexcept | |
+
+### C++11 Core Language Features Table: Concurrency
+
+| Nr        | C++ Concurrency           | Check  |
+| ------------- |:-------------| :-----:|
+| 1	| Reworded sequence points | |
+| 2	| Atomics| |
+| 3	| Strong compare and exchange | |
+| 4	| Bidirectional fences | |
+| 5	| Memory model | |
+| 6	| Data-dependency ordering | |
+| 7	| Data-dependency ordering: function annotation | |
+| 8	| exception_ptr | |
+| 9	| quick_exit | |
+| 10	| Atomics in signal handlers | |
+| 11	| Thread-local storage | |
+| 12	| Magic statics | |
+
+###C++ 14 Core Language Features
+
+| Nr        | C++14 Feature           | Check  |
+| ------------- |:-------------| :-----:|
+| 1	| Tweaked workding for contextual conversions | |
+| 2	| Binary literals| |
+| 3	| auto and decltype(auto) return types | |
+| 4	| init-captures | |
+| 5	| Generic lambdas | |
+| 6	| Variable templates | |
+| 7	| Extended constexpr | |
+| 8	| NSDMIs for aggregates| |
+| 9	| Avoiding/fusing allocations | |
+| 10	| [[deprecated]] attributes | |
+| 11	| Sized allocation | |
+| 12	| Digit separators| |
+
+### C++17 Proposed Core Language Features
+
+| Nr        | C++17 Feature           | Check  |
+| ------------- |:-------------| :-----:|
+| 1	| New rules for auto with braced-init-lists | |
+| 2	| Terse static assert| |
+| 3	| typename in template template-parameters | |
+| 4	| Removing trigraphs| |
+| 5	| Nested namespace definitions | |
+| 6	| N4259 std::uncaught_exceptions()| |
+| 7	| N4261 Fixing qualification conversions| |
+| 8	| N4266 Attributes for namespaces and enumerators| |
+| 9	|N4267 u8 character literals | |
+| 10	| N4268 Allowing more non-type template args | |
+| 11	| N4295 Fold expressions| |
+| 12	|await/resume| |
 
