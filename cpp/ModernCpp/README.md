@@ -48,6 +48,7 @@ Tutorials about C++11, C++14, C++17 ...
 | 37| override and final v0.8 - v1.0 | |
 | 38| Minimal GV support | |
 | 39| noexcept | |
+| 40| constexpr | |
 
 ### C++11 Core Language Features Table: Concurrency
 
