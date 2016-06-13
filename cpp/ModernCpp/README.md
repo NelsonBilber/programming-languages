@@ -2,7 +2,7 @@
 
 Tutorials about C++11, C++14, C++17 ...
 
-[Table from Microsoft MSDN] (https://msdn.microsoft.com/en-us/library/hh567368.aspx)
+[Table borrowed from Microsoft MSDN Support For C++11/14/17 Features (Modern C++) ] (https://msdn.microsoft.com/en-us/library/hh567368.aspx)
 
 
 | Nr        | C++ Core Features           | Check  |
