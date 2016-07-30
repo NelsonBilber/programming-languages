@@ -1,1 +1,0 @@
-/usr/bin/c++    -std=c++11    CMakeFiles/unique_pointer.dir/main.cpp.o  -o unique_pointer -rdynamic 
