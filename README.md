@@ -1,8 +1,10 @@
-# programming-languages
+# Programming languages
 
-Samples and tuturials about C#,Java, ...
+Samples and tutorials about Python, C#,Java, ...
 
+### Pyhton
 
+Check source code samples in this repository [PyCode](https://github.com/NelsonBilber/py.thehardway)
 
 ### C'#'
 Covers some basic and advanced topics of C#. How to use Inheritance, Delegates, Generics, Collections, Events, Parelellism, Concurrency, Lambdas, ...
