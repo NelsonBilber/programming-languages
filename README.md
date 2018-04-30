@@ -2,7 +2,7 @@
 
 Samples and tutorials about Python, C#,Java, ...
 
-### Pyhton
+### Python
 
 Check source code samples in this repository [PyCode](https://github.com/NelsonBilber/py.thehardway)
 
